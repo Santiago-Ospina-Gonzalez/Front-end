@@ -23,7 +23,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FaIconComponent } from '@fortawesome/angular-fontawesome';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { UsuarioComponent } from './usuario/usuario.component';
-import { LibCostosXpComponent } from './librerias/costos-presupuestos/lib-costos-xp/lib-costos-xp.component';
+import { LibCostosXpModule } from './librerias/costos-presupuestos/lib-costos-xp/lib-costos-xp.module';
 import {LibLagrangeComponent} from './librerias/analisis-numerico/lib-lagrange/lib-lagrange.component';
 import {OvaTemplateComponent} from './template/ova-template/ova-template.component';
 import {AcordeonComponent} from './template/acordeon/acordeon.component';
@@ -31,6 +31,8 @@ import { LibCostos5Component } from './librerias/costos-presupuestos/lib-costos5
 import { LibInversaComponent } from './librerias/matematicas-discretas/lib-inversa/lib-inversa.component';
 import {LibInversaModule} from './librerias/matematicas-discretas/lib-inversa/lib-inversa.module';
 import { LibSoprioridadesComponent } from './librerias/sistemas-operativos/lib-soprioridades/lib-soprioridades.component';
+import { LibPuntoEquilibrioComponent } from './librerias/costos-presupuestos/lib-punto-equilibrio/lib-punto-equilibrio.component';
+
 
 @NgModule({
   declarations: [
@@ -53,10 +55,9 @@ import { LibSoprioridadesComponent } from './librerias/sistemas-operativos/lib-s
     LibGitcmdComponent,
     LoginComponent,
     InformacionComponent,
-    LibCostosXpComponent,
     LibCostos5Component,
     LibInversaComponent,
-    LibSoprioridadesComponent
+    LibSoprioridadesComponent,
   ],
   imports: [
     BrowserModule,
@@ -70,7 +71,8 @@ import { LibSoprioridadesComponent } from './librerias/sistemas-operativos/lib-s
     FormsModule,
     AppRoutingModule,
     FormsModule,
-    LibInversaModule
+    LibInversaModule,
+    LibCostosXpModule
   ],
   exports: [RouterModule],
   providers: [

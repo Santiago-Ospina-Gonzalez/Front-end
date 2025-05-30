@@ -46,7 +46,8 @@ const routes: Routes = [
       { path: 'lib-compiler', component: LibCompilerComponent},
       { path: 'lib-operaciones-conjuntos', loadChildren: () => import('./librerias/matematicas-discretas/lib-operaciones-conjuntos/lib-operaciones-conjuntos.module').then(m => m.LibOperacionesConjuntosModule)},
       { path: 'lib-so-sjf', component:LibSoSJComponent},
-      { path: 'lib-biseccion', loadChildren: () => import('./librerias/analisis-numerico/lib-biseccion/lib-biseccion.module').then(m => m.LibBiseccionModule)}
+      { path: 'lib-biseccion', loadChildren: () => import('./librerias/analisis-numerico/lib-biseccion/lib-biseccion.module').then(m => m.LibBiseccionModule)},
+      { path: 'lib-punto-equilibrio', loadChildren: () => import('./librerias/costos-presupuestos/lib-punto-equilibrio/lib-punto-equilibrio.module').then(m => m.LibPuntoEquilibrioModule)}
 
     ]
   },
