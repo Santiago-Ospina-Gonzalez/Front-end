@@ -1,0 +1,31 @@
+<div class="container">
+  <h2 class="titulo">Primero el trabajo más corto</h2>
+
+  <div class="formulario">
+    <div class="campo">
+      <label for="ids">IDs de procesos</label>
+      <input id="ids" [(ngModel)]="ids" placeholder="[1,2,3]" />
+    </div>
+
+    <div class="campo">
+      <label for="arrivals">Tiempos de llegada</label>
+      <input id="arrivals" [(ngModel)]="arrivals" placeholder="[0,2,4]" />
+    </div>
+
+    <div class="campo">
+      <label for="bursts">Tiempos de ráfaga</label>
+      <input id="bursts" [(ngModel)]="bursts" placeholder="[5,3,1]" />
+    </div>
+
+    <button (click)="ejecutar()">Resultado</button>
+
+    <div *ngIf="resultado" class="resultado">
+      <h3>Orden de ejecución (SJF):</h3>
+      <p>{{ resultado }}</p>
+    </div>
+
+    <div *ngIf="error" class="error">
+      <p>{{ error }}</p>
+    </div>
+  </div>
+</div>
