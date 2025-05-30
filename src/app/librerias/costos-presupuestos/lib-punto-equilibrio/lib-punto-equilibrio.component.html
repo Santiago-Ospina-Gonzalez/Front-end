@@ -1,0 +1,20 @@
+<div class="main-container">
+  <div class="panel procesos-container" style="min-width: 400px;">
+    <h2 class="titulo">Punto de Equilibrio</h2>
+    <div class="scrollable">
+      <div class="input-group">
+        <label for="costofijo" class="etiqueta">Costo Fijo</label>
+        <input type="number" [(ngModel)]="costofijo" id="costofijo" class="input" />
+      </div>
+      <div class="input-group">
+        <label for="costovariable" class="etiqueta">Costo Variable</label>
+        <input type="number" [(ngModel)]="costovariable" id="costovariable" class="input" />
+      </div>
+      <div class="input-group">
+        <label for="precioVenta" class="etiqueta">Precio de Venta</label>
+        <input type="number" [(ngModel)]="precioVenta" id="precioVenta" class="input" />
+      </div>
+      <button (click)="calcular()" class="btn-operar" style="width: 100%; margin-top: 1.5rem;">Operar</button>
+    </div>
+  </div>
+</div>

@@ -10,7 +10,6 @@ import { LibCostosXpComponent } from './lib-costos-xp.component';
     CommonModule,
     FormsModule,
     HttpClientModule,
-
   ]
 })
 export class LibCostosXpModule {}
