@@ -69,6 +69,7 @@ const routes: Routes = [
       { path: '', redirectTo: '/programas', pathMatch: 'full' },
       { path: 'programas', loadChildren: () => import('./programas/programas.module').then(m => m.ProgramasModule) },
       { path: 'usuario', loadChildren: () => import('./usuario/usuario.module').then(m => m.UsuarioModule) },
+      { path: 'cursos', loadChildren: () => import('./cursos/cursos.module').then(m => m.CursosModule) },
     ]
   },
       {path:'**', component: PageNoFoundComponent}

@@ -35,19 +35,11 @@ export const FACULTADES: Facultad[] = [
             id: 1,
             nombre: 'Analisis numerico',
             ovas: [
-              { id: 1, nombre: 'Interpolación de Newton', url:'/lib-newton' },
-              { id: 2, nombre: 'Método de Bisección', url:'/lib-biseccion' },
+              { id: 1, nombre: 'Método de Bisección', url:'/lib-biseccion' },
             ]
           },
           {
             id: 2,
-            nombre: 'Ambiente Web II',
-            ovas: [
-              { id: 1, nombre: 'Git Commands', url:'/lib-gitcmd' },
-            ]
-          },
-          {
-            id: 3,
             nombre: 'Arquitectura de Computadores',
             ovas: [
               { id: 1, nombre: 'Compilador de Codigo', url: '/lib-compiler' }
@@ -71,8 +63,7 @@ export const FACULTADES: Facultad[] = [
             id: 3,
             nombre: 'Matemáticas Discretas',
             ovas: [
-              { id: 1, nombre: 'Escítala Espartana', url: '/lib-escitala' },
-              { id: 2, nombre: 'Operaciones con Conjuntos', url: '/lib-operaciones-conjuntos' }
+              { id: 1, nombre: 'Operaciones con Conjuntos', url: '/lib-operaciones-conjuntos' }
             ]
           }
         ]

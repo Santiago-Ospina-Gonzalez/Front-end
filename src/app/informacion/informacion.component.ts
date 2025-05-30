@@ -33,12 +33,12 @@ export class InformacionComponent {
     ],
 
     team4: [
-      {name: 'NICONICONI', role: 'Scrum', img: 'assets/img/niconiconi.jpg'},
-      {name: 'SAAVEDRA', role: 'Software Architect', img: 'assets/img/saavedra.jpg'},
-      {name: 'JUANES', role: 'Developer', img: 'assets/img/juanes.jpg'},
-      {name: 'GUEVARA', role: 'Developer', img: 'assets/img/guevara.jpg'},
-      {name: 'ESCOPETA', role: 'UX/UI Designer', img: 'assets/img/escopeta.jpg'},
-      {name: 'JAVIER EDUARDO', role: 'Project Manager', img: 'assets/img/javier.jpg'}
+      {name: 'SANTIAGO', role: 'Scrum', img: 'assets/images/teamfour/SANTIAGO.jpg'},
+      {name: 'ANGIE', role: 'UX/UI Designer', img: 'assets/images/teamfour/GEN.jpg'},
+      {name: 'ANGEL', role: 'Developer', img: 'assets/images/teamfour/LICANGE.jpeg'},
+      {name: 'ALEJANDRO', role: 'Developer', img: 'assets/images/teamfour/PINK.jpg'},
+      {name: 'JOSEFO PRO', role: 'Software Architect', img: 'assets/images/teamfour/ELADMIN.jpg'},
+      {name: 'NICOLAS', role: 'Developer', img: 'assets/images/teamfour/chavo.jpg'}
     ],
     team5: [
       {name: 'NICONICONI', role: 'Scrum', img: 'assets/img/niconiconi.jpg'},
