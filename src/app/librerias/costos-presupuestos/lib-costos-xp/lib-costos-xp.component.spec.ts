@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LibCostosXPComponent } from './lib-costos-xp.component';
+import { LibCostosXpComponent } from './lib-costos-xp.component';
 
-describe('LibCostosXPComponent', () => {
-  let component: LibCostosXPComponent;
-  let fixture: ComponentFixture<LibCostosXPComponent>;
+describe('LibCostosXpComponent', () => {
+  let component: LibCostosXpComponent;
+  let fixture: ComponentFixture<LibCostosXpComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [LibCostosXPComponent]
+      declarations: [LibCostosXpComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LibCostosXPComponent);
+    fixture = TestBed.createComponent(LibCostosXpComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
